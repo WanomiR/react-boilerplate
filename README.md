@@ -494,10 +494,10 @@ $ mkdir public && touch public/index.html
 
 If you use VSCode, simply you can type `!` and `enter` to create the HTML codes.
 
-## Step 14. Create src folder, index.jsx, and App.jsx
+## Step 14. Create src folder, index.jsx, and app.jsx
 
 ```bash
-$ mkdir src && touch src/index.jsx src/App.jsx
+$ mkdir src && touch src/index.jsx src/app.jsx
 ```
 
 Your entry is set to `index.jsx` in the `src` folder in `webpack.config.ts` file
@@ -529,7 +529,7 @@ root.render(<App />);
 
 If you've been using React version 17 or below, you may find the rendering method is somewhat different. Please follow the link, [How to Upgrade to React 18](https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html).
 
-Your `App.jsx` file may look something like this:
+Your `app.jsx` file may look something like this:
 
 ```typescript
 import styles from './App.module';

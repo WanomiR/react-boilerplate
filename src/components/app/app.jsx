@@ -1,6 +1,6 @@
-import styles from './App.module';
+import styles from './app.module.scss';
 import SamplePage from '@pages/Sample';
-import './main.scss';
+import '../../main.scss';
 
 const App = () => {
     return (
