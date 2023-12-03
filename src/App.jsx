@@ -2,7 +2,7 @@ import styles from './App.module';
 import SamplePage from '@pages/Sample';
 import './main.scss';
 
-const App: React.FC = () => {
+const App = () => {
     return (
         <div>
             <div className={styles.title}>CSS module works!</div>

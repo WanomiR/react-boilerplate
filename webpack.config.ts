@@ -22,7 +22,7 @@ const config: webpack.Configuration = {
     hot: true,
     port: 3000,
   },
-  entry: './src/index.tsx',
+  entry: './src/index.jsx',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
